@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single"
+    >
+    <item android:title="Home"
+        android:id="@+id/home1"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+    <item android:title="About"
+        android:id="@+id/about"
+        android:icon="@drawable/ic_phone_android_black_24dp"/>
+    <item android:title="Message"
+        android:id="@+id/message1"
+        android:icon="@drawable/ic_message_black_24dp"/>
+    <item android:title="Call"
+        android:id="@+id/call"
+        android:icon="@drawable/ic_call_black_24dp"/>
+
+</group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:title="Contact us"
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_call_black_24dp"/>
+        </menu>
+    </item>
+</menu>

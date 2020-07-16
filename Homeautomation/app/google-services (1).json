@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "214387723695",
+    "firebase_url": "https://home-automation-7bbca.firebaseio.com",
+    "project_id": "home-automation-7bbca",
+    "storage_bucket": "home-automation-7bbca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214387723695:android:73fcd0d2fd2c585190f35a",
+        "android_client_info": {
+          "package_name": "com.www.homeautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214387723695-mcisivdsbmi68atufimscpabgcd3vr5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgNn3BTAn86QYOfjVEUrMLeAw_bwpIg2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214387723695-mcisivdsbmi68atufimscpabgcd3vr5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

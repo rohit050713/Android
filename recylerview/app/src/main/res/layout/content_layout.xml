@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#ff1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/cardview_bg"
+        android:layout_margin="10dp"
+        >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:orientation="horizontal"
+
+       >
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        />
+       <LinearLayout
+           android:layout_width="110dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_gravity="center">
+       <TextView
+           android:id="@+id/tv1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_margin="5dp"
+           android:text="Air Conditioner"/>
+           <TextView
+               android:id="@+id/tv2"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_margin="5dp"
+               android:text="Living Room"/>
+       </LinearLayout>
+
+
+           <androidx.appcompat.widget.SwitchCompat
+               android:id="@+id/toggle_button"
+               android:onClick="switch_button"
+               android:layout_width="110dp"
+               android:layout_height="wrap_content"
+               android:layout_margin="10dp"
+               android:layout_gravity="center"
+               android:textStyle="bold"
+               android:textOn="ON"
+               android:textOff="OFF"
+               android:textColor="#000"
+               android:paddingLeft="50dp"
+               android:thumb="@drawable/thumb"
+               app:track="@drawable/track"
+               app:showText="true"/>
+
+
+
+   </LinearLayout>
+        <LinearLayout
+            android:id="@+id/expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+                        >
+  <TextView
+      android:id="@+id/expandable_tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:textColor="@android:color/darker_gray"
+      android:paddingLeft="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">recyler view</string>
+    <string-array name="title">
+        <item>Bulb</item>
+        <item>Fan</item>
+        <item>Air Conditioner</item>
+        <item>Refrigerator</item>
+
+    </string-array>
+    <string-array name="title_2">
+        <item>Living Room</item>
+        <item>Living Room</item>
+        <item>Living Room</item>
+        <item>Living Room</item>
+
+    </string-array>
+
+    <string-array name="expandable_text">
+        <item>You have turned on the bulb</item>
+        <item>You have turned on the Fan</item>
+        <item>You have turned on the Air Conditioner</item>
+        <item>You have turned on the Refrigerator</item>
+
+    </string-array>
+</resources>
